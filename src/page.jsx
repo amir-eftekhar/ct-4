@@ -3,7 +3,7 @@ import { HashRouter as Router, Route, Routes, Navigate, useNavigate } from 'reac
 import { Play, Users, Send, AlertCircle, ArrowLeft, StopCircle } from 'lucide-react';
 
 // Base API URL
-const BASE_API_URL = 'https://proctorpass-a50034e2cf52.herokuapp.com/';
+const BASE_API_URL = 'https://proctorpass-be8a9db4b313.herokuapp.com/';
 
 // Main App component
 function Page() {
