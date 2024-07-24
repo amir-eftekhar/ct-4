@@ -1,3 +1,35 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    @apply bg-gray-100;
+  }
+  
+  .neomorphic {
+    @apply relative;
+    @apply bg-white;
+    @apply rounded-lg;
+    @apply shadow-md;
+    @apply p-4;
+    @apply transform;
+    @apply transition-all;
+    @apply duration-300;
+    @apply hover:scale-105;
+    @apply hover:shadow-lg;
+  }
+  
+  .gradient-text {
+    @apply text-transparent;
+    @apply bg-clip-text;
+    @apply bg-gradient-to-r;
+    @apply from-primary;
+    @apply to-secondary;
+  }
+  
+  .icon {
+    @apply w-6;
+    @apply h-6;
+    @apply text-gray-500;
+    @apply hover:text-primary;
+  }
